@@ -1,10 +1,10 @@
-package org.springframework.samples.petclinic.bootstrap;
+package org.springframework.sample.petclinic.bootstrap;
 
 import org.springframework.context.ApplicationListener;
 import org.springframework.context.event.ContextRefreshedEvent;
-import org.springframework.samples.petclinic.model.Owner;
-import org.springframework.samples.petclinic.model.Pet;
-import org.springframework.samples.petclinic.repositories.OwnerRepository;
+import org.springframework.sample.petclinic.model.Owner;
+import org.springframework.sample.petclinic.model.Pet;
+import org.springframework.sample.petclinic.repositories.OwnerRepository;
 import org.springframework.stereotype.Component;
 
 @Component

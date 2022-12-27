@@ -1,7 +1,8 @@
-package org.springframework.samples.petclinic.repositories;
+package org.springframework.sample.petclinic.repositories;
+
 
 import org.springframework.data.repository.CrudRepository;
-import org.springframework.samples.petclinic.model.Owner;
+import org.springframework.sample.petclinic.model.Owner;
 
 public interface OwnerRepository extends CrudRepository<Owner, Long> {
 }

@@ -14,11 +14,10 @@
  * limitations under the License.
  */
 
-package org.springframework.samples.petclinic;
+package org.springframework.sample.petclinic;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.ImportRuntimeHints;
 
 /**
  * PetClinic Spring Boot Application.

@@ -1,0 +1,3 @@
+org\springframework\sample\petclinic\bootstrap\BootStrap.class
+org\springframework\sample\petclinic\PetClinicApplication.class
+org\springframework\sample\petclinic\repositories\OwnerRepository.class
