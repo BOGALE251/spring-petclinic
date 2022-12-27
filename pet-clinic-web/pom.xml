@@ -3,13 +3,13 @@
   <parent>
     <artifactId>spring-petclinic</artifactId>
     <groupId>org.springframework.samples</groupId>
-    <version>1.0.0</version>
+    <version>1.0.1-SNAPSHOT</version>
   </parent>
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>org.springframework.samples</groupId>
   <artifactId>pet-clinic-web</artifactId>
-  <version>3.0.0</version>
+  <version>3.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <properties>
@@ -29,7 +29,7 @@
     <dependency>
       <groupId>org.springframework.samples</groupId>
       <artifactId>pet-clinic-data</artifactId>
-      <version>1.0.0</version>
+      <version>1.0.1-SNAPSHOT</version>
 
     </dependency>
     <dependency>
