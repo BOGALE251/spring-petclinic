@@ -6,29 +6,15 @@ import java.util.HashSet;
 import java.util.Set;
 
 @Entity
-public class Owner {
-	@jakarta.persistence.Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
-	private Long Id;
-
-	private String name;
+public class Owner extends NamedEntity {
 
 	@OneToMany(cascade = CascadeType.PERSIST, mappedBy = "owner")
-	private Set<Pet> pets = new HashSet();
+	private Set<Pet> pets = new HashSet<>();
 
 	public Owner() {
 
 	}
-
 	public Owner(String name) {
-		this.name = name;
-	}
-
-	public String getName() {
-		return name;
-	}
-
-	public void setName(String name) {
 		this.name = name;
 	}
 

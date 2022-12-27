@@ -2,6 +2,7 @@ package org.springframework.sample.petclinic.bootstrap;
 
 import org.springframework.context.ApplicationListener;
 import org.springframework.context.event.ContextRefreshedEvent;
+import org.springframework.sample.petclinic.model.BaseEntity;
 import org.springframework.sample.petclinic.model.Owner;
 import org.springframework.sample.petclinic.model.Pet;
 import org.springframework.sample.petclinic.repositories.OwnerRepository;
